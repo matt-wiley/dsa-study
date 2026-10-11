@@ -11,7 +11,6 @@ class LinkedList:
         self._items: List[LinkedList.Node] = []
 
     def add(self, item: Any) -> None:
-
         parent = None
         data = item
 
